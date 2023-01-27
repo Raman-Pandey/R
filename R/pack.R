@@ -22,7 +22,8 @@ basic_function = function(v){
     min = min(v),
     max = max(v),
     range = max(v),
-    std_dev = sd(v)
+    std_dev = sd(v),
+    quantile =  quantile(v,0)
   )
 }
 
